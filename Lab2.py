@@ -1,4 +1,4 @@
-import networkx as nx
+"""import networkx as nx
 import matplotlib.pyplot as plt
 def add_vertex(v):
   global graph
@@ -21,7 +21,7 @@ def add_edge(v1, v2, e):
     # an undirected graph, an edge between v1 v2 does not
     # imply that an edge exists between v2 and v1
     temp = [v2, e]
-    graph[v1].append(temp)
+    graph[v1].append(temp)"""
 
 def NAF_to_RG(AF,Q,T,F,R):
 	RGsimbols = ["0"]*15
